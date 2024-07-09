@@ -1,0 +1,24 @@
+<div class="form-container">
+
+    <div >
+        <form class="form" #predictionForm="ngForm" (ngSubmit)="onFormSubmitted(predictionForm)">
+            <label>Air temperature</label>
+            <input type="number" name="air temperature" ngModel>
+            <label>Process temperature</label>
+            <input type="number" name="process temperature" ngModel>
+            <label>Rotational speed</label>
+            <input type="number" name="rotational speed" ngModel>
+            <label>Torque</label>
+            <input type="number" name="torque" ngModel>
+            <label>Tool wear</label>
+            <input type="number" name="tool wear" ngModel>
+            <!-- <label>Product quality</label>
+            <input type="number" name="product quality" ngModel> -->
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+
+    <!-- <app-prediction-result></app-prediction-result> -->
+
+
+</div>

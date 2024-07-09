@@ -1,0 +1,17 @@
+<div class="navbar">
+    <!-- <div class="navbar-title">Predictive Maintenance</div> -->
+    <img src="https://imagetolink.com/ib/v4XHO1t3ze.png" alt="TASNEE Logo" class="logo">
+    <div class="navbar-menu">
+
+        <!-- <a routerLink="Home">Home</a>
+        <a *ngIf="display" routerLink="Prediction">Prediction</a> -->
+
+        <a routerLink="PredictionResult" [class.selected]="selectedLink === 'PredictionResult'" class="predictiontag"
+            (click)="handleClick('PredictionResult')">PREDICTION</a>
+        <a routerLink="Config" [class.selected]="selectedLink === 'Config'" class="configtag"
+            (click)="handleClick('Config')">CONFIGURATION</a>
+        <a routerLink="Home" [class.selected]="selectedLink === 'Home'" class="imagetag" (click)="handleClick('Home')">
+                <img src="../../assets/images/qnmark.png" alt="HELP">
+        </a>
+    </div>
+</div>

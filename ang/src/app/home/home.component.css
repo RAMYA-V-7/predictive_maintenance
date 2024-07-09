@@ -1,0 +1,311 @@
+
+.flex1 {
+    display: flex;
+    width: 100%;
+    height: 93vh;
+    background: url('../../assets/images/image.jpeg') 50% / contain no-repeat;
+    background-size: cover;
+}
+
+.flex2{
+    /* display: flex;
+    width: 100%;
+    height: 90vh;
+    max-width: 900px;
+    max-height: 900px;
+    background-color: white; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* min-width: 1066px; */
+    /* border: 3px solid black; */
+    max-height: 900px;
+    background-color: white;
+}
+
+/* .helpimage{
+    background: url('../../../../assets/helpimage 2.jpg') 50% / contain no-repeat;
+    width: 100%;
+    background-size: cover;
+} */
+
+
+.flex1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 48px;
+  width: 100%;
+  max-width: 100%;
+  max-height: 656px;
+  height: 100%;
+  background: #0e0f5f9e;
+  z-index: 1;
+  }
+
+
+.title{
+  display: flex;
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 15%;
+  left: 27%;
+  min-width: 400px;
+  max-width: 708px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 140%;
+  z-index: 2;
+  
+}
+
+.title-subhead{
+  display: flex;
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 35%;
+  left: 23%;
+  min-width: 39%;
+  max-width: 55%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  z-index: 2;
+}
+
+.leftpane{
+  display: flex;
+    margin-top: 300px;
+    margin-left: 29px;
+    height: 304px;
+    width: 712px;
+    border-radius: 7px;
+    /* background-color: white; */
+    background: hsla(224, 96%, 30%, 0.721);
+    box-shadow: 0px 0px 14px 0px rgb(27 23 23 / 14%);
+    z-index: 2;
+}
+.predtitle{
+    position: absolute;
+    top: 58%;
+    left: 6%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    z-index: 2;
+    color: white;
+}
+
+.leftpaneline{
+  position: absolute;
+    top: 66%;
+    left: 6%;
+    border: 1px solid #22c1ed;
+    width:295px;
+    height: 1px;
+    background-color: #013f9cc3;
+    z-index: 2;
+    color: white;
+
+}
+
+.leftpanecontent{
+  display: flex;
+    position: absolute;
+    top: 70%;
+    left: 6%;
+    text-align: justify;
+    height: fit-content;
+    min-width: 200px;
+    max-width: 295px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    z-index: 2;
+    color: white;
+}
+
+.leftpanetickbox{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 54%;
+  left: 32%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  z-index: 2;
+  color: white;
+}
+
+.tickmark1,.tickmark2,.tickmark3{
+   display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 250px;
+    gap: 9px;
+    align-items: center;
+    z-index: 2;
+}
+
+.helpimagetick{
+  background: url('../../assets/images/helpimage tick.png') 50% no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: 33px;
+  z-index: 2;
+}
+
+
+
+.rightpane{
+    display: flex;
+    margin-top: 300px;
+    margin-left: 30px;
+    height: 304px;
+    width: 712px;
+    border-radius: 7px;
+    background: hsla(224, 96%, 30%, 0.721);
+    box-shadow: 0px 0px 14px 0px rgb(27 23 23 / 14%);
+    z-index: 2;
+}
+
+
+.configtitle{
+    position: absolute;
+    top: 60%;
+    left: 54%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    z-index: 2;
+    color: white;
+}
+
+.rightpaneline{
+  position: absolute;
+  top: 68%;
+  left: 54%;
+  border: 1px solid #22c1ed;
+  width:295px;
+  height: 1px;
+  background-color: #013f9cc3;
+  z-index: 2;
+}
+
+.rightpanecontent{
+  display: flex;
+  position: absolute;
+  top: 71%;
+  left: 54%;
+  text-align: justify;
+  height: fit-content;
+  min-width: 200px;
+  max-width: 295px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  z-index: 2;
+  color: white;
+}
+
+.rightpanetickbox{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 56%;
+  left: 79%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  z-index: 2;
+  color: white;
+}
+
+
+/* .textheading{
+  z-index: 3;
+  color: wheat;
+  position: absolute;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* .container {
+  width: 100%;
+  height: 60%;
+   background: url('https://imagetolink.com/ib/jtlKJMvsp9.jpg') no-repeat  ;
+  margin-left:0px;
+  margin-right:0px;
+  max-width:1420px;
+  max-height:400px;
+  background-size: cover;
+  z-index:1;
+}
+ 
+.container::before {
+  content: '';
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  max-height:60%;
+  height: 60%;
+  background: rgba(39, 5, 255, 0.5);
+  z-index: 1;
+  transition: background 0.5s ease-in-out;
+}
+ 
+.head {
+ 
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+ 
+.hero {
+  margin-top: 5%;
+  position: relative;
+  z-index: 2;
+}
+ 
+.hero h3{
+  font-size: 48px;
+  font-weight: bold;
+  margin-left: 110px;
+  color: white;
+}
+ 
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  color: white;
+  margin-left: 110px;
+}
+ 
+.logo {
+    height: 50px;
+    width:200px;
+  } */
